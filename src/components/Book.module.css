@@ -1,0 +1,27 @@
+.book {
+  background: white;
+  border-radius: 5px;
+  border: 1px solid #e8e8e8;
+  margin: 25px 0;
+  padding: 15px 15px;
+}
+
+.book h3 {
+  margin: 0.5rem 0;
+  font-size: 2rem;
+}
+
+.buttons > button {
+  padding-right: 20px;
+  margin-right: 20px;
+  border: none;
+  background: none;
+  cursor: pointer;
+  margin-top: 20px;
+  font-size: 1.2rem;
+  color: #0290ff;
+}
+
+.buttons > *:not(:last-child) {
+  border-right: 1px solid black;
+}
