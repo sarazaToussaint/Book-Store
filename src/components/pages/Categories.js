@@ -4,14 +4,14 @@ import { categActions } from '../../redux/categories/categories';
 const Categories = () => {
   const dispatch = useDispatch();
 
-  const statusCheckHandler = () => {
+  const clickHandler = () => {
     dispatch(categActions.checkStatus());
   };
-
   return (
     <main>
-      <button type="button" onClick={statusCheckHandler}>Check Status</button>
+      <button type="button" onClick={clickHandler}>Check Status</button>
     </main>
   );
 };
+
 export default Categories;
