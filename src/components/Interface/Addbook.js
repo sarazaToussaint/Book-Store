@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { useDispatch } from 'react-redux';
+import { v4 as uuidv4 } from 'uuid';
 import { booksActions } from '../../redux/books/books';
 import { sendBooksData } from '../../redux/books/actions';
 import classes from './AddBook.module.css';
@@ -26,7 +27,7 @@ const AddBook = () => {
     e.preventDefault();
     if (title.length > 2 && author.length > 2) {
       const newBook = {
-        id: Math.random().toString(),
+        id: uuidv4(),
         title,
         author,
         category,
@@ -63,9 +64,11 @@ const AddBook = () => {
           onChange={categoryHandler}
           className={classes.select}
         >
+          <option value="" defaultValue>Category</option>
           <option value="fiction">Fiction</option>
           <option value="technology">Technology</option>
-          <option value="action">Action</option>
+          <option value="science">Science</option>
+          <option value="other">Other</option>
         </select>
         <button type="submit">Add Book</button>
       </form>

@@ -3,6 +3,10 @@
   padding-top: 15px;
 }
 
+.addbook h2 {
+  color: gray;
+}
+
 .addbook form {
   display: flex;
   justify-content: space-between;
@@ -15,6 +19,16 @@
   width: 30%;
   margin-top: 10px;
   border-radius: 5px;
+}
+
+.addbook .select {
+  border: 1px solid #e8e8e8;
+  padding: 10px;
+  width: 20%;
+  margin-top: 10px;
+  border-radius: 5px;
+  background-color: #fff;
+  color: gray;
 }
 
 .addbook button {

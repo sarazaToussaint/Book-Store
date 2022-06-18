@@ -23,6 +23,8 @@ const Books = () => {
         author={books[key][0].author}
         title={books[key][0].title}
         category={books[key][0].category}
+        index={Math.floor(Math.random() * 60) + 5}
+        chapter={Math.floor(Math.random() * 10) + 1}
       />,
     );
   }
