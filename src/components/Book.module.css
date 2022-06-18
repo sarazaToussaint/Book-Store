@@ -1,3 +1,79 @@
-body {
-  background-color: #fff;
+.bookContainer {
+  display: flex;
+  background: white;
+  border-radius: 5px;
+  border: 1px solid #e8e8e8;
+  margin: 25px 0;
+  padding: 15px 15px;
+}
+
+.book {
+  width: 40%;
+}
+
+.book h3 {
+  margin: 0.5rem 0;
+  font-size: 2rem;
+}
+
+.buttons > button {
+  padding-right: 20px;
+  margin-right: 20px;
+  border: none;
+  background: none;
+  cursor: pointer;
+  margin-top: 20px;
+  font-size: 1.2rem;
+  color: #0290ff;
+}
+
+.buttons > *:not(:last-child) {
+  border-right: 1px solid black;
+}
+
+.progress {
+  display: flex;
+  flex-direction: column;
+  width: 15%;
+  border-right: 1px solid #9b9393;
+}
+
+.icon {
+  padding-right: 10px;
+  width: 50px;
+  height: 50px;
+  transform: rotate(-45deg);
+  color: #0290ff;
+}
+
+.progress p {
+  padding: 10px 0;
+  color: gray;
+}
+
+.update {
+  width: 30%;
+  padding: 0 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.update h5 {
+  color: #9b9393;
+  font-size: 14px;
+}
+
+.update h3 {
+  margin: 10px 0;
+  font-size: 24px;
+}
+
+.update button {
+  padding: 5px 10px;
+  width: auto;
+  font-size: 20px;
+  color: #fff;
+  background-color: #0290ff;
+  border: 1px solid #e8e8e8;
+  border-radius: 5px;
 }

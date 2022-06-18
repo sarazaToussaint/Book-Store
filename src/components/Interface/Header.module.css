@@ -27,11 +27,29 @@
   padding: 10px 20px;
   font-size: 1.1rem;
   text-decoration: none;
-  color: black;
+  color: gray;
+}
+
+.profile {
+  color: #0290ff;
+}
+
+nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.navItems {
+  display: flex;
+  flex-direction: row;
+  width: 45%;
+  justify-content: space-between;
 }
 
 .container {
-  max-width: 1200px;
+  max-width: 2400px;
   margin: 0 auto;
   display: flex;
   justify-content: flex-start;

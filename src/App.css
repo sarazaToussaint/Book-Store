@@ -23,3 +23,20 @@ main {
   max-width: 1200px;
   margin: 0 auto;
 }
+
+.categories {
+  width: 50%;
+  height: 300px;
+  margin: 50px auto;
+  background-color: #fff;
+}
+
+.categories button {
+  padding: 8px 20px;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  background: #0290ff;
+  font-size: 1.2rem;
+  margin: 0 auto;
+}

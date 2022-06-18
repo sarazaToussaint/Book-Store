@@ -7,8 +7,9 @@ const Categories = () => {
   const clickHandler = () => {
     dispatch(categActions.checkStatus());
   };
+
   return (
-    <main>
+    <main className="categories">
       <button type="button" onClick={clickHandler}>Check Status</button>
     </main>
   );
