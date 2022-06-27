@@ -20,7 +20,7 @@
 - React
 - Redux
 
-## Live Demo (if available)
+## [Live Demo](https://delicate-froyo-30f60e.netlify.app/)
 
 Not available
 
